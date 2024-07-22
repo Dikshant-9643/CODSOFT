@@ -1,0 +1,250 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.image-container {
+    width: 100%;
+    position: relative;
+}
+
+.image-container img {
+    height: 500px;
+    width: 100%;
+}
+
+.image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.menu_bar{
+height: 100px;
+display: flex;
+justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+}
+
+.logo span{
+    color: gray;
+}
+
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu_bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+
+.menu_bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu_bar ul li a:hover{
+    color: gray;
+}
+
+.dropdown{
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+
+.dropdown ul{
+    display: block;
+    margin: 10px;
+}
+
+.dropdown ul li{
+    width: 150px;
+    padding: 10px;
+}
+
+.slogan{
+    width: 100%;
+    height: 300px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.word{
+    height: 300px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: 15px solid;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: #acadac;
+    border-bottom-color: #acadac;
+}
+
+.word span{
+    color: #919B93;
+}
+
+.show{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.shoesshow{
+    height: 600px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.shoesoption{
+    height: 50px;
+    width: 80%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px; 
+    color: #222222;
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shoes{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.shoe{
+    height: 350px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 7px 7px 7px 3px black;
+}
+
+.shoe2{
+    margin-top: 40px;
+}
+
+.shoe3{
+    margin-top: 80px;
+}
+
+.shoe4{
+    margin-top: 120px;
+}
+
+.shoespic{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+   
+}
+
+.shoespic img{
+    height: 100%;
+    width: 100%;
+    filter: grayscale(.4);
+    transition: .3s;
+}
+
+.shoespic img:hover{
+    filter: grayscale(0);
+    transform: scale(1.3) rotate(7deg);
+}
+
+.shoesname{
+    height: 50px;
+    width: 100%;
+    background-color: #aaa7ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.companyshow{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.companyhead{
+    width: 85%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px; 
+    color: #222222;
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.companyname{
+    width: 95%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.company{
+    height: 300px;
+    width: 200px;
+    box-shadow: 7px 7px 7px 3px black;
+}
+
+.company .shoespic{
+    height: 280px;
+    width: 100%;
+}
+
+.company .shoesname{
+    height: 20px;
+    width: 100%;
+    font-size: 20px;
+    background-color: white;
+}
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: #222222;
+}
