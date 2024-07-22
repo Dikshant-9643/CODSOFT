@@ -1,0 +1,371 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainheading{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(68, 26, 145);
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio{
+    height: 60px;
+    width: 50%;
+    color: white;
+    font-size: 60px; 
+}
+
+.folio{
+    color: rgb(220, 120, 13);
+}
+
+.tag{
+    height: 60px;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.name{
+    height: 40px;
+    width: 30%;
+    background-color: rgb(114, 54, 217);
+    border-bottom-right-radius: 50px ;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+
+.personal{
+    height: 30px;
+    width: 25%;
+    font-size: 26px;
+    color: white;
+    background-color: rgb(114, 54, 217);
+    display: flex;
+    margin-top: 50px;
+}
+
+.infosec{
+    height: 395px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.info{
+    width: 95%;
+    height: 395px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+}
+
+.pic{
+    height: 200px;
+    width: 150px;
+    background-color: blue;
+    display:grid;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.pic img{
+    height: 100%;
+    width: 100%;
+}
+
+.infowrite{
+    height: 350px;
+    width: 1200px;
+    background-color: #adadad;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 15px;
+}
+
+.write{
+    height: 50px;
+    width: 350px;
+    margin-left:50px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+
+.skillinfo{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillsec{
+    height: 350px;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+}
+
+.skillpic{
+    height: 300px;
+    width: 45%;
+    background-color: blue;
+}
+
+.skillpic img{
+    height: 100%;
+    width: 100%;
+}
+.skillwrite{
+    height: 200px;
+    width: 50%;
+    background-color: #adadad;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+}
+
+.skill{
+    height: 150px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 35px;
+    font-size: 17px;
+}
+
+.projectinfo{
+    height: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.projectsec{
+    height: 1300px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    box-shadow: 0 0 15px black;
+    border-radius: 15px;
+}
+
+.project1{
+    height: 600px;
+    width:90%;
+    background-color: rgb(117, 117, 117);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.heading1{
+    height: 50px;
+    width: 100%;
+}
+
+.heading{
+    height: 50px;
+    width: 200px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.projectname{
+    height: 30px;
+    width: 265px;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.discription{
+    height: 150px;
+    width: 750px;
+    background-color: #adadad;
+    margin-left: 315px;
+    margin-top: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectpic{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.images{
+    height: 200px;
+    width: 300px;
+}
+
+.image1{
+    background-image: url("f1\ 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image2{
+    background-image: url("f1\ 2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image3{
+    background-image: url("f1\ 3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image4{
+    background-image: url("f1\ 4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imagea{ background-image: url("a1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imageb{ background-image: url("a 2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.download{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-container{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+}
+
+.resume{
+    height: 100px;
+    width: 50%;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    height: 50px;
+    width: 20%;
+    background-color: #adadad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.linkpdf{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    transition: background-color 0.3s ease;
+
+}
+
+.link:hover{
+    background-color: #4a4a4a;
+}
+
+.contact{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactsec{
+    height: 100px;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 0 0 15px black;
+
+}
+
+.connect{
+    height: 50px;
+    width: 400px;
+    background-color: #adadad;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 30px;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details{
+    font-size: 22px;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color:rgb(68, 26, 145);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+}
